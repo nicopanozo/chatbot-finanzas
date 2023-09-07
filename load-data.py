@@ -18,6 +18,6 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 openai.api_key = openai_api_key
 
 # conContinúa con tu código para cargar y procesar el PDF
-loader = PyPDFLoader("1.pdf")
+loader = PyPDFLoader("./finances-data/4pillars-of-investment.pdf")
 pages = loader.load()
 
