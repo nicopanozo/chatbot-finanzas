@@ -1,7 +1,7 @@
 import nltk
 
 # retornamos una lista de segmentos de texto
-# Divide el texto en segmentos de 800 palabras con una superposición de 150 palabras.
+# divide el texto en segmentos de 800 palabras con una superposición de 150 palabras.
 def get_chunk_text(text):
 
     sents = nltk.sent_tokenize(text)
