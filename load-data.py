@@ -75,4 +75,36 @@ def load_csv_data():
 # Llama a la función
 all_data = load_csv_data()
 
-print(all_data)
+# print(all_data)
+# Llama a las funciones
+pdf_data = load_data_pdf()
+csv_data = load_csv_data()
+
+# Guarda los resultados en los archivos de texto
+def save_pdf_data():
+
+    # Abre el archivo de texto
+    with open("after-load/pdf.txt", "w") as f:
+        # Convierte la lista a una cadena
+        data_string = str(pdf_data)
+
+        # Escribe la cadena en el archivo
+        f.write(data_string)
+        f.write("\n")
+
+
+def save_csv_data():
+
+    # Abre el archivo de texto
+    with open("after-load/csv.txt", "w") as f:
+        # Convierte la lista a una cadena
+        data_string = str(csv_data)
+
+        # Escribe la cadena en el archivo
+        f.write(data_string)
+        f.write("\n")
+
+
+# Llama a las funciones
+save_pdf_data()
+save_csv_data()
