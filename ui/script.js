@@ -14,7 +14,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = (incomingChatLi) => {
-    const API_URL = "http://127.0.0.1:8000/chat_data";
+    const API_URL = "http://127.0.0.1:7080/chat_data";
     const messageElement = incomingChatLi.querySelector("p");
 
     const requestOptions = {
