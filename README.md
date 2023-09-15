@@ -6,3 +6,5 @@
 ### to execute this project you have to run every cell in the final.ipynb file in the order they appear
 
 ### the content used to train this model is from the most influential authors in the field so the advice received by this chatbot is very useful
+
+### URL to the data: https://drive.google.com/drive/folders/1zZyaPmPRS8m_0MyoICtXd7KjV7WFxPa_?usp=drive_link
