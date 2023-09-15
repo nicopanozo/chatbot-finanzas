@@ -1,3 +1,4 @@
 .env
 /finances-data
 /after-load
+/__pycache__
