@@ -1,0 +1,23 @@
+Consulta SPARQL para obtener información sobre la gestión de riesgos en finanzas:
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX fin: <http://moneymate.com/finanzas#> 
+
+SELECT ?concepto ?explicacion
+WHERE {
+  ?concepto rdf:type fin:GestionDeRiesgos .
+  ?concepto fin:explicacion ?explicacion .
+}
+LIMIT 1
+
+
+
+Consulta SPARQL para insertar datos sobre la gestión de riesgos:
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX fin: <http://moneymate.com/finanzas#>  
+
+INSERT DATA {
+  fin:GestionDeRiesgos1 rdf:type fin:GestionDeRiesgos .
+  fin:GestionDeRiesgos1 fin:explicacion "La gestión de riesgos financieros implica identificar, evaluar y gestionar los riesgos asociados con las inversiones y decisiones financieras. Esto se hace para proteger los activos financieros y maximizar los rendimientos." .
+}

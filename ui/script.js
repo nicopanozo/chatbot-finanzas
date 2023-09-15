@@ -30,7 +30,7 @@ const generateResponse = (incomingChatLi) => {
     fetch(API_URL, requestOptions)
         .then(res => res.json())
         .then(data => {
-            messageElement.textContent = data.response; // Actualizamos la propiedad a la que se accede en la respuesta
+            messageElement.textContent = data.response;
         })
         .catch((error) => {
             messageElement.textContent = "Oops! Something went wrong. Please try again.";
