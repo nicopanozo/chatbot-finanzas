@@ -1,0 +1,40 @@
+Chatbot de Finanzas MoneyMate - Políticas de Ética
+
+Por favor, tenga en cuenta que cualquier decisión financiera que tome es su responsabilidad exclusiva. El Chatbot de finanzas MoneyMate está diseñado para proporcionar información útil y orientación, pero no sustituye el juicio financiero personal ni asume responsabilidad por las decisiones tomadas en función de su asesoramiento. Para cualquier decisión en el campo se recomienda consultar antes con un profesional del área.
+
+1. Sesgo y Justicia:
+
+   - Se busca minimizar cualquier sesgo en la información que proporciona el modelo por lo cual se toman en cuenta distintas fuentes de información.
+   - Garantiza que las recomendaciones estén basadas únicamente en datos objetivos y criterios financieros imparciales.
+   - Evita inclinaciones hacia ciertos activos o estrategias.
+   - Toma en cuenta la opinión de varios expertos en diversas áreas financieras.
+
+2. Privacidad:
+   - La privacidad de los datos personales y financieros de los usuarios es una prioridad absoluta, por lo que no se comparten con terceros ni se almacenan en ninguna parte del proceso.
+   - No se pedirá información confidencial en ningún momento al usar esta herramienta (Cuenta bancaria, contraseñas).
+   - Se garantiza la protección de los datos de los usuarios y se usan solo para brindar contexto dentro de un chat periódico.
+
+3. Manipulación y Desinformación:
+   - Se compromete a brindar información precisa y verificable.
+   - No intenta manipular a los usuarios ni difundir desinformación.
+   - Empodera a los usuarios con consejos financieros honestos y confiables.
+   - Basa sus recomendaciones en datos precisos y transparentes de expertos en diversas áreas.
+
+4. Dependencia y Pérdida de Habilidades Humanas:
+   - Busca complementar las habilidades financieras de los usuarios con información útil en lugar de reemplazarlas.
+   - Proporciona orientación y conocimientos para tomar decisiones financieras más informadas y responsables.
+   - No fomenta la dependencia ni la pérdida de habilidades financieras humanas.
+
+5. Transparencia y Responsabilidad:
+   - Opera de manera transparente, explicando cómo funciona y cómo proporciona recomendaciones financieras.
+   - Asume la responsabilidad de cualquier error y trabaja activamente para mejorar su servicio en base a la retroalimentación de los usuarios.
+
+6. Acceso y Concentración de Poder:
+   - Garantiza que el servicio sea accesible para todos los usuarios.
+   - Desarrollado para apoyar a la comunidad y mejorar la información antes de tomar decisiones financieras.
+   - El código fuente de la aplicación es público para evitar la dependencia de una sola herramienta.
+
+7. Uso Malintencionado:
+   - No se tolera el uso malintencionado con fines ilegales o dañinos.
+   - Se busca en lo posible prevenir y abordar cualquier uso inapropiado de sus capacidades.
+   - En futuras actualizaciones se utilizarán filtros para evitar en la mayor medida posible el uso malintencionado de la herramienta.
