@@ -1,0 +1,68 @@
+# Nicolas Panozo
+# Script para insertar entidades
+# crear una por una, no se pueden muchos queries a la vez
+
+PREFIX : <http://moneymate.top/finanzas#>
+
+# Estrategias de inversión
+INSERT DATA {
+  :EstrategiasInversion a owl:Class;
+      rdfs:label "Estrategias de inversión".
+}
+
+# Plazos
+INSERT DATA {
+  :CortoPlazo a owl:Class;
+      rdfs:label "Corto Plazo".
+}
+
+INSERT DATA {
+  :MedianoPlazo a owl:Class;
+      rdfs:label "Mediano Plazo".
+}
+
+INSERT DATA {
+  :LargoPlazo a owl:Class;
+      rdfs:label "Largo Plazo".
+}
+
+# Entidades de inversión
+INSERT DATA {
+  :Trading a owl:Class;
+      rdfs:label "Trading".
+}
+
+INSERT DATA {
+  :InvestmentFund a owl:Class;
+      rdfs:label "Investment Fund".
+}
+
+INSERT DATA {
+  :RealState a owl:Class;
+      rdfs:label "Real State".
+}
+
+INSERT DATA {
+  :House a owl:Class;
+      rdfs:label "House".
+}
+
+INSERT DATA {
+  :Apartment a owl:Class;
+      rdfs:label "Apartment".
+}
+
+INSERT DATA {
+  :Cryptos a owl:Class;
+      rdfs:label "Cryptos".
+}
+
+INSERT DATA {
+  :Forex a owl:Class;
+      rdfs:label "Forex".
+}
+
+INSERT DATA {
+  :Metals a owl:Class;
+      rdfs:label "Metals".
+}

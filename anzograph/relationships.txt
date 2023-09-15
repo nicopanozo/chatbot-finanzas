@@ -1,0 +1,36 @@
+# Nicolas Panozo
+# Script de relaciones
+# crear cada relacion una por una
+
+PREFIX : <http://moneymate.top/finanzas#>
+
+# Relaciones entre Estrategias de inversión y Plazos
+INSERT DATA {
+  :EstrategiasInversion :tienePlazo :CortoPlazo, :MedianoPlazo, :LargoPlazo.
+}
+
+# Relaciones entre Plazos y Entidades de inversión
+INSERT DATA {
+  :CortoPlazo :tieneInversion :Trading.
+}
+
+INSERT DATA {
+  :MedianoPlazo :tieneInversion :Trading, :InvestmentFund.
+}
+
+INSERT DATA {
+  :LargoPlazo :tieneInversion :InvestmentFund, :RealState.
+}
+
+# Relaciones entre Entidades de inversión
+INSERT DATA {
+  :Trading :tieneRelacion :Cryptos, :Forex, :Metals.
+}
+
+INSERT DATA {
+  :InvestmentFund :tieneRelacion :DPF, :Government, :Private.
+}
+
+INSERT DATA {
+  :RealState :tieneRelacion :House, :Apartment.
+}
